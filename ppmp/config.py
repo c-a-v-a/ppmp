@@ -1,0 +1,1 @@
+"""Module for constants and application settings."""

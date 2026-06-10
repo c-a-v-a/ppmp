@@ -1,0 +1,1 @@
+"""Package providing data modles for the messages sent via the app."""

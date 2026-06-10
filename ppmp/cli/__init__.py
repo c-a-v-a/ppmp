@@ -1,0 +1,1 @@
+"""Package responsible for console user interface and retriving user input."""
