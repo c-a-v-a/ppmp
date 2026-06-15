@@ -1,3 +1,4 @@
 .direnv
 .envrc
 **/**/__pycache__
+ppmp_debug.log

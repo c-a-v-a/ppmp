@@ -2,8 +2,8 @@
 
 from dataclasses import dataclass
 
-from error_type import ErrorType
-from frame import Frame
+from .error_type import ErrorType
+from .frame import Frame
 
 
 @dataclass

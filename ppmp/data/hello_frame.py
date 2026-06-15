@@ -2,7 +2,7 @@
 
 from dataclasses import dataclass
 
-from frame import Frame
+from .frame import Frame
 
 @dataclass
 class HelloFrame(Frame):

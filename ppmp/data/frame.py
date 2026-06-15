@@ -1,15 +1,16 @@
 """Base frame class providing JSON and dictionary serialization utilities."""
 
-from dataclasses import asdict
+from dataclasses import asdict, dataclass
 import json
 from typing import Any, TypeVar
 
-from frame_type import FrameType
+from .frame_type import FrameType
 
 
 T = TypeVar("T", bound="Frame")
 
 
+@dataclass
 class Frame:
     """Base class for all message frames.
 

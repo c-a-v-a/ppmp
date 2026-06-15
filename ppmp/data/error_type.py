@@ -1,9 +1,9 @@
 """Error type definitions."""
 
-from enum import IntEnum
+from enum import StrEnum
 
 
-class ErrorType(IntEnum):
+class ErrorType(StrEnum):
     """Enumeration of error types used in protocol frames.
 
     Attributes:
@@ -11,5 +11,5 @@ class ErrorType(IntEnum):
         ERR_RATE_LIMIT: Request was rejected due to rate limiting.
     """
 
-    ERR_AUTH_FAILED = 1
-    ERR_RATE_LIMIT = 2
+    ERR_AUTH_FAILED = "ERR_AUTH_FAILED"
+    ERR_RATE_LIMIT = "ERR_RATE_LIMIT"

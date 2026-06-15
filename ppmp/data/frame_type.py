@@ -1,14 +1,14 @@
 """Enumeration of supported message frame types."""
 
-from enum import IntEnum
+from enum import StrEnum
 
 
-class FrameType(IntEnum):
+class FrameType(StrEnum):
     """Enumeration of message frame types."""
-    HELLO = 1
-    MSG = 2
-    ACK = 3
-    PING = 4
-    PONG = 5
-    BYE = 6
-    ERROR = 7
+    HELLO = "HELLO"
+    MSG = "MSG"
+    ACK = "ACK"
+    PING = "PING"
+    PONG = "PONG"
+    BYE = "BYE"
+    ERROR = "ERROR"

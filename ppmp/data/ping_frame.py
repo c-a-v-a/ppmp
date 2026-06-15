@@ -1,6 +1,6 @@
 """Ping frame definitions."""
 
-from frame import Frame
+from .frame import Frame
 
 
 class PingFrame(Frame):
